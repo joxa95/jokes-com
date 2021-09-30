@@ -2,9 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
-body {
-	box-sizing: border-box;
-}
+
 .display-flex {
 	display: flex;
 	justify-content: center;
@@ -25,14 +23,16 @@ body {
 	left: 47%;
 }
 .joke-p {
+	box-sizing: border-box;
 	font-size: 1.2rem;
 	position: relative;
 	margin: 10px;
-	padding: 10px;
+	padding: 10px 20px;
+	/* padding-bottom: 10px; */
+	padding-left: 20px;
 	padding-right: 40px;
-	padding-bottom: 10px;
 	width: 80%;
-	height: 50px;
+	/* height: 50px; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -41,7 +41,7 @@ body {
 }
 .smile {
 	position: absolute;
-	bottom: 10px;
+	bottom: 16%;
 	right: 10px;
 	font-size: 1.5rem;
 }
